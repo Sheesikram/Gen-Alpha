@@ -1,0 +1,49 @@
+# Core Dependencies
+streamlit>=1.31.0
+python-dotenv>=1.0.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# LangChain and LLM
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-groq>=0.0.1
+langchain-community>=0.0.1
+
+# Vector Store and Embeddings
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+
+# Data Processing
+pydantic>=2.0.0
+tqdm>=4.65.0
+
+# Medical Text Processing
+spacy>=3.7.0
+medspacy>=1.3.0
+
+# Data Validation
+email-validator>=2.0.0
+
+# Machine Learning Utilities
+scikit-learn>=1.3.0
+
+# OpenAI Integration
+langchain-openai
+openai
+
+# Anthropic Integration
+#langchain-anthropic
+
+# Google Gemini (PaLM) Integration
+langchain-google-genai
+google-generativeai
+
+# Hugging Face Integration
+langchain-huggingface
+transformers
+huggingface-hub
+
+# LangChain
+langchain-openai>=0.0.2
+openai>=1.12.0
